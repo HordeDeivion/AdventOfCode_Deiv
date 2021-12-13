@@ -77,7 +77,8 @@ def get_filter_criteria(fd,max):
 
 
 print("Starting program")
-#get_number_bits(fr)
+
+
 objetiveOxigen_bitarray = get_filter_criteria(open(file_name_challenge, "r"),True)
 objetiveOxigen_value =line_toString_bit(objetiveOxigen_bitarray[::-1])
 
